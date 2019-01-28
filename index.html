@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Timer!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="timer text-light">
+        <h1>Stopwatch</h1>
+    </div>
+    <nav class="controls">
+        <a href="#" class="button btn btn-dark" id="start">Start</a>
+        <a href="#" class="button btn btn-dark" id="stop">Stop</a>
+        <a href="#" class="button btn btn-danger" id="reset">Reset</a>
+    </nav>
+    <div class="stopwatch bg-light"></div>
+    <ul class="results"></ul>
+    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+    <script type="text/babel" src="script-compiled.js"></script>
+</body>
+
+</html>
